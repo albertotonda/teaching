@@ -24,6 +24,11 @@ predictive_features = ['Age', 'Pclass', 'IsAlone', 'Deck', 'Embarked_Q', 'Embark
 X = df[predictive_features].values
 print("Predictive features:", X)
 
+# also, let's normalize the features
+from sklearn.preprocessing import StandardScaler
+scaler_X = StandardScaler()
+X = scaler_X.fit_transform(X)
+
 # we split the data into training and test (we will use test data later)
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random_state=42)
@@ -34,6 +39,10 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random
 #from sklearn.linear_model import LogisticRegression
 #model = LogisticRegression()
 
+# Support Vector Machines, oh man, this one is doing something extremely smart with data transformation!
+#from sklearn.svm import SVC
+#model = SVC()
+
 # Decision Tree, highly interpretable but probably kinda sucky
 from sklearn.tree import DecisionTreeClassifier
 model = DecisionTreeClassifier(max_depth=2)
@@ -42,10 +51,6 @@ model = DecisionTreeClassifier(max_depth=2)
 #from sklearn.ensemble import RandomForestClassifier
 #model = RandomForestClassifier(n_estimators=10)
 
-# Support Vector Machines, oh man, this one is doing something extremely smart with data transformation!
-#from sklearn.svm import SVC
-#model = SVC()
-
 # Adaptive Gradient Boosting is slow but effective
 #from sklearn.ensemble import AdaBoostClassifier
 #model = AdaBoostClassifier(n_estimators=10)
@@ -53,6 +58,10 @@ model = DecisionTreeClassifier(max_depth=2)
 # Bagging is more or less as slow and effective as AdaBoost
 #from sklearn.ensemble import BaggingClassifier
 #model = BaggingClassifier(n_estimators=10)
+
+# Artificial (Deep) Neural Network!
+from keraswrappers import ANNClassifier
+model = ANNClassifier(layers=[128], batch_size=32, epochs=100, learning_rate=1e-5)
 
 # 'fit' trains the model based on the data
 model.fit(X_train, y_train)

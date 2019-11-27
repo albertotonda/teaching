@@ -14,9 +14,6 @@ print("The dataset contains %d samples and %d features." % (df.shape[0], df.shap
 # we can for example count the number of passengers that survived (feature 'Survived' == 1)
 print("Of the %d passengers in the dataset, %d survived." % (df.shape[0], df[ df['Survived'] == 1].shape[0]))
 
-# TODO REMOVE THIS LINE
-df = df.dropna()
-
 # now, we select the data of the target; the values are going to be 0 (did not survive) or 1 (survived)
 target_feature = 'Survived'
 y = df[target_feature].values
@@ -38,8 +35,8 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random
 #model = LogisticRegression()
 
 # Decision Tree, highly interpretable but probably kinda sucky
-#from sklearn.tree import DecisionTreeClassifier
-#model = DecisionTreeClassifier(max_depth=2)
+from sklearn.tree import DecisionTreeClassifier
+model = DecisionTreeClassifier(max_depth=2)
 
 # Random Forest, fast to train and often quite effective (albeit not always the best)
 #from sklearn.ensemble import RandomForestClassifier
@@ -54,8 +51,8 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random
 #model = AdaBoostClassifier(n_estimators=10)
 
 # Bagging is more or less as slow and effective as AdaBoost
-from sklearn.ensemble import BaggingClassifier
-model = BaggingClassifier(n_estimators=10)
+#from sklearn.ensemble import BaggingClassifier
+#model = BaggingClassifier(n_estimators=10)
 
 # 'fit' trains the model based on the data
 model.fit(X_train, y_train)
@@ -80,3 +77,6 @@ cross_validation_results = cross_validate(model, X, y, scoring='accuracy', cv=n_
 # numpy is a module with utility functions for quickly computing functions
 import numpy as np
 print("Average classification accuracy score (on test) for model %s is %.4f (+/- %.4f)" % (model.__class__.__name__, np.mean(cross_validation_results["test_score"]), np.std(cross_validation_results["test_score"])))
+
+# what if we want to know WHY is the classifier taking these decisions?
+

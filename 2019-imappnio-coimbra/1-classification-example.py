@@ -44,8 +44,8 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random
 #model = SVC()
 
 # Decision Tree, highly interpretable but probably kinda sucky
-from sklearn.tree import DecisionTreeClassifier
-model = DecisionTreeClassifier(max_depth=2)
+#from sklearn.tree import DecisionTreeClassifier
+#model = DecisionTreeClassifier(max_depth=2)
 
 # Random Forest, fast to train and often quite effective (albeit not always the best)
 #from sklearn.ensemble import RandomForestClassifier
@@ -60,12 +60,12 @@ model = DecisionTreeClassifier(max_depth=2)
 #model = BaggingClassifier(n_estimators=10)
 
 # Artificial (Deep) Neural Network!
-from keraswrappers import ANNClassifier
-model = ANNClassifier(layers=[128], batch_size=32, epochs=100, learning_rate=1e-5)
+#from keraswrappers import ANNClassifier
+#model = ANNClassifier(layers=[128], batch_size=32, epochs=100, learning_rate=1e-5)
 
 # DO NOT DECOMMENT THIS ONE, used for later
-from tpot import TPOTClassifier
-model = TPOTClassifier(generations=5, population_size=50, verbosity=2, random_state=42)
+#from tpot import TPOTClassifier
+#model = TPOTClassifier(generations=5, population_size=50, verbosity=2, random_state=42)
 
 # 'fit' trains the model based on the data
 model.fit(X_train, y_train)
@@ -80,17 +80,3 @@ print("The classification accuracy score of classifier %s on the training data i
 y_test_predicted = model.predict(X_test)
 score_test = accuracy_score(y_test, y_test_predicted)
 print("The classification accuracy score of classifier %s on the test data is %.4f" % (model.__class__.__name__, score_test))
-
-# to obtain a more reliable performance, a classifier can be run multiple times, using random training/test splits, and we can then take the average
-n_folds = 10
-print("Now performing a cross-validation with %d folds (might take a while)..." % n_folds)
-from sklearn.model_selection import cross_validate
-cross_validation_results = cross_validate(model, X, y, scoring='accuracy', cv=n_folds, return_train_score=True)
-
-# numpy is a module with utility functions for quickly computing functions
-import numpy as np
-print("Average classification accuracy score (on training) for model %s is %.4f (+/- %.4f)" % (model.__class__.__name__, np.mean(cross_validation_results["train_score"]), np.std(cross_validation_results["train_score"])))
-print("Average classification accuracy score (on test) for model %s is %.4f (+/- %.4f)" % (model.__class__.__name__, np.mean(cross_validation_results["test_score"]), np.std(cross_validation_results["test_score"])))
-
-# what if we want to know WHY is the classifier taking these decisions?
-

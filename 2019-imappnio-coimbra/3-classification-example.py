@@ -77,5 +77,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.tree import plot_tree
 model = DecisionTreeClassifier(max_depth=2)
 
+import matplotlib.pyplot as plt
 model.fit(X, y)
 plot_tree(model, feature_names=predictive_features, class_names=['Dead', 'Alive'])
+plt.show()

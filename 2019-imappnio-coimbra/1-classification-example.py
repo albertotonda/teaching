@@ -63,6 +63,10 @@ model = DecisionTreeClassifier(max_depth=2)
 from keraswrappers import ANNClassifier
 model = ANNClassifier(layers=[128], batch_size=32, epochs=100, learning_rate=1e-5)
 
+# DO NOT DECOMMENT THIS ONE, used for later
+from tpot import TPOTClassifier
+model = TPOTClassifier(generations=5, population_size=50, verbosity=2, random_state=42)
+
 # 'fit' trains the model based on the data
 model.fit(X_train, y_train)
 # 'predict' performs predictions
@@ -81,10 +85,11 @@ print("The classification accuracy score of classifier %s on the test data is %.
 n_folds = 10
 print("Now performing a cross-validation with %d folds (might take a while)..." % n_folds)
 from sklearn.model_selection import cross_validate
-cross_validation_results = cross_validate(model, X, y, scoring='accuracy', cv=n_folds)
+cross_validation_results = cross_validate(model, X, y, scoring='accuracy', cv=n_folds, return_train_score=True)
 
 # numpy is a module with utility functions for quickly computing functions
 import numpy as np
+print("Average classification accuracy score (on training) for model %s is %.4f (+/- %.4f)" % (model.__class__.__name__, np.mean(cross_validation_results["train_score"]), np.std(cross_validation_results["train_score"])))
 print("Average classification accuracy score (on test) for model %s is %.4f (+/- %.4f)" % (model.__class__.__name__, np.mean(cross_validation_results["test_score"]), np.std(cross_validation_results["test_score"])))
 
 # what if we want to know WHY is the classifier taking these decisions?

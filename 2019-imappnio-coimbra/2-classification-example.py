@@ -60,8 +60,8 @@ X = scaler_X.fit_transform(X)
 #model = ANNClassifier(layers=[128], batch_size=32, epochs=100, learning_rate=1e-5)
 
 # DO NOT DECOMMENT THIS ONE, used for later
-#from tpot import TPOTClassifier
-#model = TPOTClassifier(generations=5, population_size=50, verbosity=2, random_state=42)
+from tpot import TPOTClassifier
+model = TPOTClassifier(generations=5, population_size=50, verbosity=2, random_state=42)
 
 # to obtain a more reliable performance, a classifier can be run multiple times, using random training/test splits, and we can then take the average
 n_folds = 10

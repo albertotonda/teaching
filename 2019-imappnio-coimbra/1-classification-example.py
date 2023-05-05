@@ -36,8 +36,8 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random
 # and now, let's MACHINE LEARN THE S**T OUT OF THIS DATASET! uncomment the two lines corresponding to your favorite classification algorithm (or a random one) and LET'S GO 
 
 # Logistic Regression, old but reliable
-#from sklearn.linear_model import LogisticRegression
-#model = LogisticRegression()
+from sklearn.linear_model import LogisticRegression
+model = LogisticRegression()
 
 # Support Vector Machines, oh man, this one is doing something extremely smart with data transformation!
 #from sklearn.svm import SVC
@@ -48,8 +48,8 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random
 #model = DecisionTreeClassifier(max_depth=2)
 
 # Random Forest, fast to train and often quite effective (albeit not always the best)
-#from sklearn.ensemble import RandomForestClassifier
-#model = RandomForestClassifier(n_estimators=10)
+from sklearn.ensemble import RandomForestClassifier
+model = RandomForestClassifier(n_estimators=300)
 
 # Adaptive Gradient Boosting is slow but effective
 #from sklearn.ensemble import AdaBoostClassifier

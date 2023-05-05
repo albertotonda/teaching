@@ -1,0 +1,32 @@
+Interesting facts or points that I would like to discuss:
+- Story of LLama -> Stanford LLama -> Alpaca
+- GPT-4 saved my dog: https://twitter.com/peakcooper/status/1639716822680236032
+- LoRA checkpoints
+- conda update anaconda
+- conda install spyder=5.4.2
+
+- https://github.com/corca-ai/EVAL
+- https://course.fast.ai/Lessons/part2.html
+
+# Interesting tools and techniques
+https://github.com/deep-floyd/IF -> another "stable-diffusion" like approach
+https://github.com/BlinkDL/ChatRWKV -> recurrent neural network that aims to challenge Transformers
+https://www.stat.berkeley.edu/~ryantibs/statlearn-s23/ -> conformal prediction
+
+# Corso di Vincent
+- L'idea di pytorch è dividere in moduli; i moduli di attivazione hanno in ingresso l'attivazione (quindi somma già fatta), i moduli lineari fanno la somma pesata degli ingressi
+- "Grafo di calcolo" perché la rete potrebbe teoricamente avere dei branch
+- Categorical cross-entropy per la classificazione
+- Quando si fa un problema multi-classe, è importante ricordare che la funzione di costo INCLUDE la softmax, non bisogna aggiungere la softmax. Ma quando la si usa in inferenza, bisogna ricordarsi che l'uscita è lineare (NON PROBABILISTICA), e bisogna passare una softmax per avere le probabilità.
+- DataLoader permette di fare data augmentation automaticamente
+- BatchNorm durante l'inferenza viene "bloccato" al valore medio osservato durante l'apprendimento
+
+# Large Language Models
+https://lmsys.org/blog/2023-05-03-arena/ -> compare LLMs with ELO-like ranking
+https://github.com/Mooler0410/LLMsPracticalGuide -> very interesting resources
+
+# LoRA/PEFT
+- https://twitter.com/karpathy/status/1649127655122550784?s=20
+- https://github.com/microsoft/LoRA
+- https://huggingface.co/blog/peft
+- https://arxiv.org/abs/2303.15647

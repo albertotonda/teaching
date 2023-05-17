@@ -1,0 +1,16 @@
+# NOTES
+
+Two parts:
+- general introduction to optimization
+	-- exact optimization (operation research)
+	-- stochastic optimization 
+- optimization as the engine of artificial intelligence
+	-- machine learning
+	-- symbolic manipulation (Monte-Carlo tree search and similia)
+- optimization to improve artificial intelligence's performance
+	-- hyperparameter optimization
+	
+Rewrite:
+- optimization as artificial intelligence
+- optimization as the engine of artificial intelligence
+- optimization to improve performance of artificial intelligence

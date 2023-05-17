@@ -1,6 +1,6 @@
 # NOTES
 
-Two parts:
+Three parts:
 - general introduction to optimization
 	-- exact optimization (operation research)
 	-- stochastic optimization 
@@ -14,3 +14,33 @@ Rewrite:
 - optimization as artificial intelligence
 - optimization as the engine of artificial intelligence
 - optimization to improve performance of artificial intelligence
+
+OPTIMIZATION AS AI?
+	Introduce the notion of P or NP
+	Can you discretize your search space and enumerate all possibilities? EXHAUSTIVE SEARCH
+	Is your problem including only binary variables? SAT SOLVER
+	Can you frame your problem as a linear problem, with linear constraints? SIMPLEX
+	Does your problem have a relatively small number of variables? BRANCH AND BOUND, OTHER OPERATIONAL RESEARCH TECHNIQUES
+	Is the search space of your problem convex (or more or less convex) and you can compute the gradient? STOCHASTIC GRADIENT DESCENT AND VARIANTS
+	Convex, but you cannot compute the derivative? BRACKETING? Or HILL CLIMBER?
+	Is your cost function relatively inexpensive to compute and informative? EVOLUTIONARY ALGORITHMS
+	Is your cost function informative, but extremely computationally heavy? BAYESIAN OPTIMIZATION
+	
+	Also, CONFLICTING OBJECTIVES?
+	Also, GREEDY APPRAOCHES? HILL CLIMBERS?
+	
+OPTIMIZATION INSIDE AI
+	Machine learning
+		Neural networks and (stochastic) gradient descent
+		Symbolic regression and evolutionary computation
+		Forests of trees
+	Symbolic AI
+		Monte-Carlo Tree Search
+		
+OPTIMIZATION FOR AI
+	Hyperparameter optimization
+	AutoML
+	
+## Bibliography / further reading
+
+Algorithms for Optimization (2019), https://www.amazon.com/Algorithms-Optimization-Press-Mykel-Kochenderfer/dp/0262039427/

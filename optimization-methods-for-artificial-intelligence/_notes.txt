@@ -28,19 +28,75 @@ OPTIMIZATION AS AI?
 	
 	Also, CONFLICTING OBJECTIVES?
 	Also, GREEDY APPRAOCHES? HILL CLIMBERS?
+	Also, PERMUTATION? CONCORDE?
 	
 OPTIMIZATION INSIDE AI
 	Machine learning
 		Neural networks and (stochastic) gradient descent
 		Symbolic regression and evolutionary computation
-		Forests of trees
+		Forests of trees and CART algorithm
 	Symbolic AI
 		Monte-Carlo Tree Search
+		A*
 		
 OPTIMIZATION FOR AI
 	Hyperparameter optimization
 	AutoML
-	
+
+## Questionnaire
+
+Level of Python expertise
+- Nothing
+- I use ipython notebooks, but I've rarely or never ran scripts
+- I code in Python, I use scripts, I have experience with several different libraries
+- I wrote a Python module and uploaded it to PyPi
+- I coded Python bindings for a compiled library
+- My name is Guido Van Rossum, I created the Python programming language, and for some reason I am answering this questionnaire even though I am very likely not going to attend the class
+
+Expertise in Python libraries. Mark all the libraries that you have already used:
+- scikit-learn
+- pandas
+- scipy
+- numpy
+- pytorch
+
+Expertise in optimization. Have you used any of the following methods?
+- Simplex
+- Genetic/Evolutionary Algorithms
+- Methods based on gradient descent (e.g. the scipy.optimize.minimize function, ADAM, RMSProp, any stochastic gradient descent method)
+- Greedy algorithms
+- SAT Solvers
+- Heuristics of any kind
+- Branch and bound
+- Bayesian optimization
+- CONCORDE
+- Other
+
+Expertise in machine learning. Have you used any of the following?
+- Decision trees
+- Random forests
+- (Deep) neural networks
+- XGBoost
+- LightGBM
+- Support Vector Machines
+- Any other algorithm based on boosting
+- Ridge
+- Passive-Aggressive
+- Principal Component Analysis
+- Monte-Carlo tree search
+
+For all the methods you checked in the previous answer, do you know how they work inside?
+- Not really
+- I have a rough idea
+- I know exactly how at least some of them work
+- All of them
+
+Expertise in AI. Mark all that applies.
+- I know the difference between symbolic AI and machine learning
+- I know what neuro-symbolic AI is
+
+
+
 ## Bibliography / further reading
 
 Algorithms for Optimization (2019), https://www.amazon.com/Algorithms-Optimization-Press-Mykel-Kochenderfer/dp/0262039427/

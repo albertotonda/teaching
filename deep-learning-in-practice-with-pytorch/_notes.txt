@@ -30,3 +30,6 @@ https://github.com/Mooler0410/LLMsPracticalGuide -> very interesting resources
 - https://github.com/microsoft/LoRA
 - https://huggingface.co/blog/peft
 - https://arxiv.org/abs/2303.15647
+
+# Transformers
+https://t.co/M5TQuTyPyg

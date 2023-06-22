@@ -29,6 +29,8 @@ OPTIMIZATION AS AI?
 	Also, CONFLICTING OBJECTIVES?
 	Also, GREEDY APPRAOCHES? HILL CLIMBERS?
 	Also, PERMUTATION? CONCORDE?
+	Also, SURROGATE MODELS?
+	
 	
 OPTIMIZATION INSIDE AI
 	Machine learning
@@ -111,3 +113,6 @@ Optimization
 ML
 - look at a decision tree, change parameters
 - change the optimization function
+
+## Websites
+https://machinelearningmastery.com/adam-optimization-from-scratch/

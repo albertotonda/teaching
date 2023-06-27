@@ -30,6 +30,7 @@ OPTIMIZATION AS AI?
 	Also, GREEDY APPRAOCHES? HILL CLIMBERS?
 	Also, PERMUTATION? CONCORDE?
 	Also, SURROGATE MODELS?
+	Also, MULTI-MODAL EVALUATION USING "SALTO" TECHNIQUE?
 	
 	
 OPTIMIZATION INSIDE AI
@@ -116,3 +117,6 @@ ML
 
 ## Websites
 https://machinelearningmastery.com/adam-optimization-from-scratch/
+https://www.askpython.com/python/examples/optimization-in-python
+https://towardsdatascience.com/introduction-to-optimization-constraints-with-scipy-7abd44f6de25
+https://github.com/jvkersch/pyconcorde

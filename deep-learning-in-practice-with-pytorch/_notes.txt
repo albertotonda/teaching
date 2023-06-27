@@ -12,6 +12,8 @@ Interesting facts or points that I would like to discuss:
 https://github.com/deep-floyd/IF -> another "stable-diffusion" like approach
 https://github.com/BlinkDL/ChatRWKV -> recurrent neural network that aims to challenge Transformers
 https://www.stat.berkeley.edu/~ryantibs/statlearn-s23/ -> conformal prediction
+huggingface.co/blog/trl-peft # LoRA
+huggingface.co/blog/stackllama # forse anche LoRA
 
 # Corso di Vincent
 - L'idea di pytorch è dividere in moduli; i moduli di attivazione hanno in ingresso l'attivazione (quindi somma già fatta), i moduli lineari fanno la somma pesata degli ingressi
@@ -33,3 +35,7 @@ https://github.com/Mooler0410/LLMsPracticalGuide -> very interesting resources
 
 # Transformers
 https://t.co/M5TQuTyPyg
+https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/ # bella spiegazione di come funziona ChatGPT
+
+# Embeddings
+macrocosm.co # macrocosm consortium

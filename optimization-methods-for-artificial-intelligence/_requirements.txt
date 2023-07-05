@@ -1,0 +1,14 @@
+bayesian-optimization (https://github.com/bayesian-optimization/BayesianOptimization)
+cma (https://pypi.org/project/cma/)
+gplearn
+inspyred (depuis https://github.com/aarongarrett/inspyred, pas par pip)
+matplotlib
+numpy
+pyconcorde (https://github.com/jvkersch/pyconcorde)
+pymoo
+pysat (pip install python-sat[aiger,approxmc,pblib])
+pytorch
+seaborn
+scikit-learn
+scipy
+torchvision

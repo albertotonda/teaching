@@ -120,3 +120,4 @@ https://machinelearningmastery.com/adam-optimization-from-scratch/
 https://www.askpython.com/python/examples/optimization-in-python
 https://towardsdatascience.com/introduction-to-optimization-constraints-with-scipy-7abd44f6de25
 https://github.com/jvkersch/pyconcorde
+https://machinelearninggeek.com/solving-staff-scheduling-problem-using-linear-programming/

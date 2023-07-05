@@ -5,6 +5,7 @@ Created on Thu Jun 22 11:04:45 2023
 @author: Alberto
 """
 
+from scipy.optimize import basinhopping
 from scipy.optimize import minimize
 from scipy.optimize import OptimizeResult
 
@@ -357,7 +358,23 @@ if __name__ == "__main__" :
         
         return best_point, points_explored
     
-    best_point, points_explored = cmaes_optimization(function_stybinski_tang, [1, -1], [-5,5], random_seed=None)
+    def basinhopping_optimization(function, starting_point, boundaries, step_size=0.5, random_seed=42) :
+        
+        points_explored = [starting_point]
+        
+        def callback_function(x, f, accept) :
+            print("basinhopping callback function!")
+            points_explored.append(x)
+            return
+        
+        result = basinhopping(function, starting_point, callback=callback_function, stepsize=step_size, seed=random_seed)
+        best_point = result.x
+        
+        return best_point, points_explored
+    
+    #best_point, points_explored = cmaes_optimization(function_stybinski_tang, [1, -1], [-5,5], random_seed=None)
+    best_point, points_explored = basinhopping_optimization(function_stybinski_tang, [1, 1], [-5, 5])
+    print("I explored points:", points_explored)
     figure2, ax2 = visualize_3d_from_above(function_stybinski_tang, [-5,5])
     ax2.scatter([x[0] for x in points_explored], [x[1] for x in points_explored], color='red', marker='x')
     ax2.scatter(best_point[0], best_point[1], color='red', marker='x')

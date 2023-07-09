@@ -331,7 +331,7 @@ if __name__ == "__main__" :
     
     def evolutionary_optimization(function, starting_point, boundaries, random_seed=42, population_size=10, max_evaluations=100) :
         """
-        starting_point here is not really used, it 
+        starting_point here is not really used, it is just there to 
         """
         points_explored = []
         prng = random.Random()
@@ -345,7 +345,7 @@ if __name__ == "__main__" :
         
         final_population = ea.evolve(
             pop_size=population_size, num_selected=population_size,
-            generator=generator, evaluator=evaluator,
+            generator=generator, evaluator=evaluator, seeds=[starting_point],
             max_evaluations=max_evaluations, maximize=False, 
             # all variables set below end up inside the 'args' dictionary
             n_dimensions=len(initial_point),
@@ -373,7 +373,8 @@ if __name__ == "__main__" :
         return best_point, points_explored
     
     #best_point, points_explored = cmaes_optimization(function_stybinski_tang, [1, -1], [-5,5], random_seed=None)
-    best_point, points_explored = basinhopping_optimization(function_stybinski_tang, [1, 1], [-5, 5])
+    #best_point, points_explored = basinhopping_optimization(function_stybinski_tang, [1, 1], [-5, 5])
+    best_point, points_explored = evolutionary_optimization(function_stybinski_tang, [1, -1], [-5, 5])
     print("I explored points:", points_explored)
     figure2, ax2 = visualize_3d_from_above(function_stybinski_tang, [-5,5])
     ax2.scatter([x[0] for x in points_explored], [x[1] for x in points_explored], color='red', marker='x')

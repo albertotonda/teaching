@@ -5,8 +5,11 @@ Interesting facts or points that I would like to discuss:
 - conda update anaconda
 - conda install spyder=5.4.2
 
+# Classes
 - https://github.com/corca-ai/EVAL
 - https://course.fast.ai/Lessons/part2.html
+- https://web.stanford.edu/class/cs224n/slides/
+- https://simonwillison.net/2023/Aug/3/weird-world-of-llms/
 
 # Interesting tools and techniques
 https://github.com/deep-floyd/IF -> another "stable-diffusion" like approach

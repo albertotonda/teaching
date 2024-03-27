@@ -42,3 +42,6 @@ https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-i
 
 # Embeddings
 macrocosm.co # macrocosm consortium
+
+# Notes for ipython notebooks
+understanding-deep-learning/udlbook/Notebooks/Chap20 è pieno di cose interessanti

@@ -1,0 +1,33 @@
+Discorso (80')
+========
+- what is Machine Learning?
+	optimization over model, same model can reproduce a great variety of behaviors; optimize internal parameters based on data, to get the best behavior
+	how do you optimize? SUPERVISED, based on examples that already contain the correct answer; UNSUPERVISED, make up some metric to optimize
+	TABULAR DATA vs STRUCTURED data
+	
+- general issues	
+	mostly used for PREDICTIVE models, because most ML models are hard to interpret; DESCRIPTIVE models are harder, but can be done
+	overfitting
+	
+- general solutions
+	use a cross-validation [EXAMPLE HERE?]
+	
+- classification
+	use accuracy, MCC, F1 [NO, BETTER EXAMPLE HERE]
+
+- interpretability of the models
+
+- hyperparameter optimization
+	
+- examples on "données fil rouge"
+	descriptive model (just shown)
+
+Altre note
+==========
+- prendendo da altre presentazioni
+	- tizio MathNum: comprendere, pulire, e preprocessing data set
+	- Nadia: visualizzare i dati
+	- Olivier: black-box, gray-box, white-box
+	- Rafael: optimization problem
+- links ai Google Colab Notebooks
+	https://colab.research.google.com/drive/143N06t1zeQz84EuQcIuGvQTCy6SfV88L?usp=sharing

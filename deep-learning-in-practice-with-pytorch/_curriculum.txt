@@ -1,0 +1,57 @@
+# Deep learning in practice with Pytorch
+
+## Class 1 (2 hours)
+1. Introduction to the class (30 minutes)
+
+2. What is a neural network and how it works (30 minutes)
+
+3. Exercises (30-60 minutes)
+- Basic stuff from scratch
+- Regression
+- Classification
+
+## Class 2 (2 hours)
+1. Basic ideas behind Pytorch: tensors, classes, forward, backward (30-60 minutes?)
+- Everything is a transformation from tensor to tensor
+- Most of the stuff that happens inside a neural network is a matrix multiplication
+
+2. Exercises: same as above, but in Pytorch (30-60 minutes?)
+- Example of Pytorch network for regression
+- Example of Pytorch network for classification
+- Comparison with state-of-the-art machine learning algorithms
+- Conclusion: tabular data vs structured data
+
+## Class 3 (2 hours)
+1. Convolutional neural networks (30-60 minutes)
+- Powerful ideas of neural networks: create high-level features from scratch
+- Structured data vs Tabular data
+- Neural networks are better for structured data
+- Neural networks have multiple outputs, that can be interpreted as anything (!)
+- Convolutional neural networks
+- What is a convolution? Why is it useful?
+- Pairing convolution with MaxPooling
+- Visualizing the results of a convolution
+
+2. Exercises (30-60 minutes)
+- Example of image classification
+- Example of saliency maps and other techniques of visualization
+
+## Class 4 (2 hours)
+1. Image segmentation?
+
+2. Other examples?
+
+## Class 5 (2 hours)
+
+## Class 6 (2 hours)
+
+## Class 7 (2 hours)
+
+## Class 8 (2 hours)
+
+## Class 9-10 (4 hours, project)
+
+# Possible other subjects
+1. Example with CNN used on DNA/RNA for classification, plus saliency maps to extract primers (20 minutes)
+2. Neural networks with concept bottlenecks
+3. Deep learning and causality

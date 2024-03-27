@@ -55,3 +55,4 @@
 1. Example with CNN used on DNA/RNA for classification, plus saliency maps to extract primers (20 minutes)
 2. Neural networks with concept bottlenecks
 3. Deep learning and causality
+4. Transfer learning and LoRA

@@ -45,3 +45,12 @@ macrocosm.co # macrocosm consortium
 
 # Notes for ipython notebooks
 understanding-deep-learning/udlbook/Notebooks/Chap20 è pieno di cose interessanti
+
+# Recipes for training neural networks
+https://karpathy.github.io/2019/04/25/recipe/
+
+# Pytorch FAQs
+https://pytorch.org/docs/stable/notes/faq.html
+
+# Different types of normalization
+https://tungmphung.com/deep-learning-normalization-methods/

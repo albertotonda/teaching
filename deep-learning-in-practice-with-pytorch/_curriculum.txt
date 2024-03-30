@@ -1,9 +1,9 @@
 # Deep learning in practice with Pytorch
 
 ## Class 1 (2 hours)
-1. Introduction to the class (30 minutes)
+1. Introduction to the class (10 minutes)
 
-2. What is a neural network and how it works (30 minutes)
+2. Machine learning (40 minutes)
 
 3. Exercises (30-60 minutes)
 - Basic stuff from scratch
@@ -11,15 +11,20 @@
 - Classification
 
 ## Class 2 (2 hours)
-1. Basic ideas behind Pytorch: tensors, classes, forward, backward (30-60 minutes?)
+1. What is a neural network and how does it work
+2. Basic ideas behind Pytorch: tensors, classes, forward, backward (30-60 minutes?)
 - Everything is a transformation from tensor to tensor
 - Most of the stuff that happens inside a neural network is a matrix multiplication
 
-2. Exercises: same as above, but in Pytorch (30-60 minutes?)
+3. Exercises: same as above, but in Pytorch (30-60 minutes?)
 - Example of Pytorch network for regression
 - Example of Pytorch network for classification
 - Comparison with state-of-the-art machine learning algorithms
 - Conclusion: tabular data vs structured data
+
+4. Regularization
+- Dropout
+- Batch normalization
 
 ## Class 3 (2 hours)
 1. Convolutional neural networks (30-60 minutes)
@@ -57,3 +62,5 @@
 3. Deep learning and causality
 4. Transfer learning and LoRA
 5. Tensor Processing Units
+6. Graph Neural Networks
+7. Diffusion models

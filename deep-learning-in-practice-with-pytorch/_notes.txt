@@ -54,3 +54,9 @@ https://pytorch.org/docs/stable/notes/faq.html
 
 # Different types of normalization
 https://tungmphung.com/deep-learning-normalization-methods/
+
+# Example of reinforcement learning with a GNN
+https://ai.hdm-stuttgart.de/news/2021/selected-topics-3-graph-neural-networks-for-reinforcement-learning/
+
+# How to propagate a gradient through a max pooling layer
+https://datascience.stackexchange.com/questions/11699/backprop-through-max-pooling-layers

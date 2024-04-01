@@ -1,6 +1,7 @@
 # Notebooks
 
 ## Session 1
-https://colab.research.google.com/drive/1a5418oFw2pHwyALxXP1cqfAQfT76_8f5?usp=sharing
+Machine learning summary - https://colab.research.google.com/drive/1a5418oFw2pHwyALxXP1cqfAQfT76_8f5?usp=sharing
 
 ## Session 2
+Basics of pytorch - https://colab.research.google.com/drive/146pua5hpN8DcF958TaDqq3rO1tEgjX9h?usp=sharing

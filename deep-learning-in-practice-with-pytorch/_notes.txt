@@ -60,3 +60,5 @@ https://ai.hdm-stuttgart.de/news/2021/selected-topics-3-graph-neural-networks-fo
 
 # How to propagate a gradient through a max pooling layer
 https://datascience.stackexchange.com/questions/11699/backprop-through-max-pooling-layers
+
+# Notes on random number generation and 

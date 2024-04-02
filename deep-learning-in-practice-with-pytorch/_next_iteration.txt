@@ -1,0 +1,5 @@
+# Next iteration
+Notes for the next class.
+
+## Session 1
+- Also show how you can de-normalize the data (e.g. returning it to its original unscaled values)

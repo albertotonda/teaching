@@ -14,3 +14,9 @@
 /2024-inrae-model-data-researcher-school/_links.txt
 /deep-learning-in-practice-with-pytorch/deep-learning-workshop
 deep-learning-in-practice-with-pytorch/_template-inrae-personalized.pptx
+*.gz
+deep-learning-in-practice-with-pytorch/_my_scripts/MNIST/raw/t10k-images-idx3-ubyte
+deep-learning-in-practice-with-pytorch/_my_scripts/MNIST/raw/t10k-labels-idx1-ubyte
+deep-learning-in-practice-with-pytorch/_my_scripts/MNIST/raw/train-images-idx3-ubyte
+deep-learning-in-practice-with-pytorch/_my_scripts/MNIST/raw/train-labels-idx1-ubyte
+/deep-learning-in-practice-with-pytorch/gabriele-ciravegna

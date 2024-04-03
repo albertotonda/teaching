@@ -5,3 +5,12 @@ Machine learning summary - https://colab.research.google.com/drive/1a5418oFw2pHw
 
 ## Session 2
 Basics of pytorch - https://colab.research.google.com/drive/146pua5hpN8DcF958TaDqq3rO1tEgjX9h?usp=sharing
+Questions:
+
+## Session 3
+Intermediate pytorch - 
+Questions:
+
+## Session 4
+Convolutional Neural Networks -
+Questions:

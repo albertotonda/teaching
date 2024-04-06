@@ -1,6 +1,32 @@
-# Deep learning in practice with Pytorch
+# Deep learning in practice with Pytorch 
 
-## Class 0 (2 hours)
+## What actually happened (2024)
+
+### Class 0 (2 hours)
+1. Introduction to the class
+2. Machine learning (took all morning!)
+
+### Class 1 (2 hours)
+1. Exercises on machine learning
+2. Neural networks and basic pytorch concepts
+
+### Class 2 (2 hours)
+1. Exercises on basic pytorch
+2. Intermediate pytorch concepts
+
+### Class 3 (2 hours)
+1. Exercises on intermediate pytorch concepts
+2. Convolutional neural networks
+3. Example of a case study: CNN for DNA/RNA analysis
+
+### Class 4 (2 hours)
+1. Errata and omissis (10 minutes)
+2. Exercises on convolutional neural networks
+3.
+
+## Theoretical planning
+
+### Class 0 (2 hours)
 1. Introduction to the class (10 minutes)
 
 2. Machine learning (40 minutes)
@@ -10,7 +36,7 @@
 - Regression
 - Classification
 
-## Class 1 (2 hours)
+### Class 1 (2 hours)
 1. What is a neural network and how does it work
 2. Basic ideas behind Pytorch: tensors, classes, forward, backward (30-60 minutes?)
 - Everything is a transformation from tensor to tensor
@@ -26,7 +52,7 @@
 - Dropout
 - Batch normalization
 
-## Class 2 (2 hours)
+### Class 2 (2 hours)
 1. Convolutional neural networks (30-60 minutes)
 - Powerful ideas of neural networks: create high-level features from scratch
 - Structured data vs Tabular data
@@ -41,16 +67,17 @@
 - Example of image classification
 - Example of saliency maps and other techniques of visualization
 
-## Class 3 (2 hours)
+### Class 3 (2 hours)
 1. Image segmentation?
 2. Case study: CNN for RNA analysis
 3. Other case studies with CNNs?
 
-## Class 4 (2 hours)
+### Class 4 (2 hours)
 
-## Class 5 (2 hours)
+### Class 5 (2 hours)
 
-## Class 6 (2 hours)
+
+### Class 6 (2 hours)
 
 ## Class 7 (2 hours)
 1. Concept bottlenecks

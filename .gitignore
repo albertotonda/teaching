@@ -20,3 +20,5 @@ deep-learning-in-practice-with-pytorch/_my_scripts/MNIST/raw/t10k-labels-idx1-ub
 deep-learning-in-practice-with-pytorch/_my_scripts/MNIST/raw/train-images-idx3-ubyte
 deep-learning-in-practice-with-pytorch/_my_scripts/MNIST/raw/train-labels-idx1-ubyte
 /deep-learning-in-practice-with-pytorch/gabriele-ciravegna
+/deep-learning-in-practice-with-pytorch/_my_scripts/generated
+deep-learning-in-practice-with-pytorch/_my_scripts/.ipynb_checkpoints/DLLP_4_CNN_visualization-checkpoint.ipynb

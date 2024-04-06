@@ -1,5 +1,9 @@
 # Next iteration
-Notes for the next class.
+Notes for the next class. Maybe try shorter sets of exercises, with shorter frontal classes?
 
-## Session 1
+## Part 1
+Refresher on ML
 - Also show how you can de-normalize the data (e.g. returning it to its original unscaled values)
+
+Tensors
+- Use animation to also show the gradient descent on t_C

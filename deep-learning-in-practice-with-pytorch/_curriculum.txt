@@ -22,7 +22,12 @@
 ### Class 4 (2 hours)
 1. Errata and omissis (10 minutes)
 2. Exercises on convolutional neural networks
-3.
+3. Visualization in CNNs
+
+### Class 5 (2 hours)
+4. Exercises on visualization in CNNs
+?. Regularization
+?. Remarks on neural networks
 
 ## Theoretical planning
 

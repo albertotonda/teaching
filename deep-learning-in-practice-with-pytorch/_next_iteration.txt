@@ -1,6 +1,9 @@
 # Next iteration
 Notes for the next class. Maybe try shorter sets of exercises, with shorter frontal classes?
 
+## Virtual machines
+Add packages: torchtext, tqdm, tsfresh
+
 ## Part 1
 Refresher on ML
 - Also show how you can de-normalize the data (e.g. returning it to its original unscaled values)

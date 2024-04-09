@@ -1,19 +1,22 @@
 # Notebooks
 
-## Session 1
+## Session 0
 Machine learning summary - https://colab.research.google.com/drive/1a5418oFw2pHwyALxXP1cqfAQfT76_8f5?usp=sharing
 
-## Session 2
+## Session 1
 Basics of pytorch - https://colab.research.google.com/drive/146pua5hpN8DcF958TaDqq3rO1tEgjX9h?usp=sharing
 Questions:
 
-## Session 3
+## Session 2
 Intermediate pytorch - https://colab.research.google.com/drive/1RuT7FiEWVSgUF_aaSr8CIZCB6bEKV20R?usp=sharing
 Questions:
 
-## Session 4
+## Session 3
 Convolutional Neural Networks - https://colab.research.google.com/drive/1tSJZqGKw5EAuhUwG1ZTfB8ZeBa3VjqSi?usp=sharing
 Questions:
 
-## Session 5
+## Session 4
 Visualization techniques - https://drive.google.com/file/d/1GlJUwRGOwNvMqwlAwdpDvjn0K38cupbs/view?usp=sharing
+
+## Session 5
+Recurrent Neural Networks - https://colab.research.google.com/drive/19RlceOejtIE_Ecn5kFPjEaXUrkdhO7YB?usp=sharing

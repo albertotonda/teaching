@@ -8,5 +8,6 @@ Add packages: torchtext, tqdm, tsfresh
 Refresher on ML
 - Also show how you can de-normalize the data (e.g. returning it to its original unscaled values)
 
-Tensors
-- Use animation to also show the gradient descent on t_C
+## RNNs
+- Apparently, recurrent modules are hard to understand. Go slower, make more examples. Animation on how it works with an example sequence.
+- Also, the concept that you can feed back the outputs as inputs for the next iteration

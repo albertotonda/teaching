@@ -35,9 +35,16 @@
 3. Exercises on RNNs
 
 ### Class 7 (2 hours)
-1. Sequence to sequence
-2. Exercises on Sequence to sequence
+1. Exercises on RNNs (not enough time left in the morning, the notebook is longer than it looks)
+2. Sequence to sequence
 3. Concept bottlenecks
+
+### Class 8 (2 hours)
+1. Pietro's seminar
+
+### Class 9 (2 hours)
+1. Brainstorming with a couple of presentations
+2. Attention mechanism and/or future developments
 
 ## Theoretical planning
 

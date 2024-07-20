@@ -1,0 +1,11 @@
+O2AI-1 - Continuous Optimization
+https://colab.research.google.com/drive/1xmRg_8g-psw7x5RkXmkuXLGmd7e1OHma?usp=sharing
+
+O2AI-2 - Linear programming and discrete optimization
+https://colab.research.google.com/drive/17Sdc1wMUc-ok8mskWQIxstSIcRsRn9n5?usp=sharing
+
+O2AI-3 - Multi-objective optimization
+https://colab.research.google.com/drive/19j4YHBPJrRIEPb6GeuuQt9FwvmXvoHdr?usp=sharing
+
+O2AI-4 - O2AI-4 Optimization of complex structures with genetic programming
+https://colab.research.google.com/drive/1fbTjDXmVItZ_N_RwYmv6sD9EY3hodnM4?usp=sharing

@@ -1,5 +1,26 @@
 # NOTES
 
+## Schedule
+Session 1: Introduction, Introduction (continuous), Exercises on continuous optimization
+Session 2: Multi-objective optimization, Exercises on multi-objective optimization
+
+Session 3: Linear programming, Discrete optimization, Exercises on linear programming/discrete optimization
+Session 4: Structures, Advanced, Exercises on complex structures
+
+Session 5: Introduction to ML, Introduction to Decision Trees
+
+## Actual schedule (05/2024)
+Session 1: Introduction, introduction (continuous) [finished a bit early]
+Session 2: Exercises on continuous optimization, linear programming
+
+Session 3: discrete optimization, exercises on linear programming/discrete optimization, multi-objective optimization
+Session 4: exercises on multi-objective optimization, optimization of structures, exercises on optimization of structures, advanced optimization topics
+
+Session 5: introduction to machine learning, exercises on machine learning, ensembles of trees, hyperparameter optimization (?)
+Session 6: brainstorming, automatic black-box optimization
+
+## Old notes
+
 Three parts:
 - general introduction to optimization
 	-- exact optimization (operation research)
@@ -122,8 +143,3 @@ https://towardsdatascience.com/introduction-to-optimization-constraints-with-sci
 https://github.com/jvkersch/pyconcorde
 https://machinelearninggeek.com/solving-staff-scheduling-problem-using-linear-programming/
 https://www.sciencedirect.com/bookseries/foundations-of-artificial-intelligence/vol/2/suppl/C
-
-## Next year
-- Add definition of NP complete/NP hard
-- Solve issues on tutorials
-- Check if stochastic gradient descent from Optimization Algorithms can be easily implemented

@@ -1,0 +1,4 @@
+# Next iteration
+- Definition of neighborhood
+- Taboo search
+- What is the definition of heuristic?

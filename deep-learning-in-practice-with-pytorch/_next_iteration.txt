@@ -4,10 +4,25 @@ Notes for the next class. Maybe try shorter sets of exercises, with shorter fron
 ## Virtual machines
 Add packages: torchtext, tqdm, tsfresh
 
-## Part 1
-Refresher on ML
+## Refresher on ML
 - Also show how you can de-normalize the data (e.g. returning it to its original unscaled values)
 
 ## RNNs
 - Apparently, recurrent modules are hard to understand. Go slower, make more examples. Animation on how it works with an example sequence.
 - Also, the concept that you can feed back the outputs as inputs for the next iteration
+- xLSTMs?
+
+## Embeddings
+- T5 could be used to reverse an embedding
+
+## AlphaFold
+- Class on AlphaFold: https://www.ebi.ac.uk/training/online/courses/alphafold/
+- AlphaFold lecture slides (downloaded somewhere): https://amyxlu.github.io/data/alphafold.pdf
+- More AlphaFold 2.0 slides (also should be downloaded somewhere): https://figshare.com/articles/presentation/AlphaFold_2_slides/20822263
+
+## Transformers from scratch in pytorch
+https://benjaminwarner.dev/2023/07/01/attention-mechanism
+https://benjaminwarner.dev/2023/07/28/rest-of-the-transformer
+
+## Tutorial on diffusion models
+https://arxiv.org/abs/2403.18103

@@ -4,8 +4,18 @@ Notes for the next class. Maybe try shorter sets of exercises, with shorter fron
 ## Virtual machines
 Add packages: torchtext, tqdm, tsfresh
 
-## Refresher on ML
-- Also show how you can de-normalize the data (e.g. returning it to its original unscaled values)
+## Deep learning 1
+1. Put network instantation and training in the same cell
+2. The mushroom dataset seems to be completely separable, so accuracy 100%; maybe find a slightly harder classification problem.
+3. Meaning of "fully connected layer".
+
+## CNNs
+1. Explain the CNN jargon a bit more: what is a "channel", what is a "filter".
+
+## GPU speed improvement
+1. We can use GPUs on Colaboratory
+2. Maybe use a docker image?
+3. Check also Azure stuff, running on servers
 
 ## RNNs
 - Apparently, recurrent modules are hard to understand. Go slower, make more examples. Animation on how it works with an example sequence.

@@ -1,5 +1,52 @@
 # Deep learning in practice with Pytorch 
 
+## Actual class (2024-b)
+
+### Class 0 (2.5 hours)
+1. Introduction to the class
+2. Machine learning
+
+### Class 1 (2.5 hours)
+1. Exercises on machine learning (including some observations on the results)
+2. Neural networks and basic pytorch concepts
+
+## Class 2 (2.5 hours)
+1. Exercises on basic pytorch
+2. Intermediate pytorch concepts
+
+## Class 3 (2.5 hours)
+1. Exercises on intermediate pytorch concepts
+2. Convolutional neural networks
+3. Example of a case study: CNN for DNA/RNA analysis
+
+## Class 4 (2.5 hours)
+1. Exercises on convolutional neural networks
+2. Remarks on deep learning (i)
+3. Regularization
+4. Visualization in CNNs
+
+## Class 5 (2.5 hours)
+1. Exercises on visualization in CNNs
+2. Embeddings
+
+## Class 6 (2.5 hours) - PLANNED
+1. Exercises on embeddings
+2. Recurrent neural networks
+3. Exercises on recurrent neural networks
+
+## Class 7 (2.5 hours) - PLANNED
+1. Sequence2Sequence
+2. Exercises on Sequence2Sequence
+3. Attention?
+
+## Class 8 (2.5 hours) - PLANNED
+1. Student projects and discussion
+2. Concept bottleneck models
+3. Remarks on deep learning (ii)
+
+## Class 9 (2.5 hours) - PLANNED
+1. Pietro's seminar
+
 ## What actually happened (2024)
 
 ### Class 0 (2 hours)

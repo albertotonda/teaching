@@ -17,6 +17,11 @@ Questions:
 
 ## Session 4
 Visualization techniques - https://drive.google.com/file/d/1GlJUwRGOwNvMqwlAwdpDvjn0K38cupbs/view?usp=sharing
+Maybe this? https://colab.research.google.com/drive/1GlJUwRGOwNvMqwlAwdpDvjn0K38cupbs
 
 ## Session 5
 Recurrent Neural Networks - https://colab.research.google.com/drive/19RlceOejtIE_Ecn5kFPjEaXUrkdhO7YB?usp=sharing
+
+## Session X
+Embeddings - https://colab.research.google.com/drive/1XNMAm2z8aQ07YZF0yn_r-MMJc3wQT3gi?usp=sharing
+Seq2seq - https://colab.research.google.com/drive/18ODB9ae2lkugSMUZw56KAlhBnlPVR7JX?usp=sharing

@@ -1,0 +1,17 @@
+# Subjects
+
+## Basic computer science
+- instructions, variables, functions, objects: everything in memory
+- idea: re-use the code as much as possible
+- disadvantages: libraries are periodically updated
+
+## Practical advice
+- logging
+- resuming crashed experiments
+- storing random seed
+- git and version control
+- structure git repositories: src/ data/ scripts/ requirements.txt README.md /local
+
+## Machine learning
+- cross-validation
+- how do the algorithms work?

@@ -29,7 +29,7 @@
 1. Exercises on visualization in CNNs
 2. Embeddings
 
-## Class 6 (2.5 hours) - PLANNED
+## Class 6 (2.5 hours)
 1. Exercises on embeddings
 2. Recurrent neural networks
 3. Exercises on recurrent neural networks
@@ -37,7 +37,8 @@
 ## Class 7 (2.5 hours) - PLANNED
 1. Sequence2Sequence
 2. Exercises on Sequence2Sequence
-3. Attention?
+3. Attention
+4. [30 minutes left at the end of the class!]
 
 ## Class 8 (2.5 hours) - PLANNED
 1. Student projects and discussion

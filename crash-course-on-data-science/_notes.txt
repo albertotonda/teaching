@@ -4,6 +4,7 @@
 - instructions, variables, functions, objects: everything in memory
 - idea: re-use the code as much as possible
 - disadvantages: libraries are periodically updated
+- variables do not exist outside of a scope
 
 ## Practical advice
 - logging
@@ -11,7 +12,16 @@
 - storing random seed
 - git and version control
 - structure git repositories: src/ data/ scripts/ requirements.txt README.md /local
+- separate notebook for figures
 
 ## Machine learning
 - cross-validation
 - how do the algorithms work?
+
+## What I promised over email
+0. coding environment (Anaconda, Python, Ipython notebooks, VSCode?, Spyder?)
+1. quick and dirty introduction to computer science
+2. good coding practices (naming variables, structuring the code in functions, using classes?, looking up errors on StackOverflow, using ChatGPT or similar)
+3. version control (git, github)
+4. what is machine learning and why do we use it? (including issues, like overfitting)
+5. good machine learning practices (cross-validation, storing predictions, metrics)

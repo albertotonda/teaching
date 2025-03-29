@@ -1,5 +1,7 @@
 # NOTES
 
+Link to eCampus: https://ecampus.paris-saclay.fr/course/view.php?id=112992
+
 ## Schedule
 Session 1: Introduction, Introduction (continuous), Exercises on continuous optimization
 Session 2: Multi-objective optimization, Exercises on multi-objective optimization

@@ -8,7 +8,6 @@
 /optimization-methods-for-artificial-intelligence/2023/
 /optimization-methods-for-artificial-intelligence/docs
 /optimization-methods-for-artificial-intelligence/images
-/optimization-methods-for-artificial-intelligence/scripts
 /optimization-methods-for-artificial-intelligence/*.pdf
 /2024-inrae-model-data-researcher-school/*.pdf
 /2024-inrae-model-data-researcher-school/_links.txt
@@ -39,3 +38,6 @@ deep-learning-in-practice-with-pytorch/_my_scripts/.ipynb_checkpoints/pytorch-cl
 /deep-learning-in-practice-with-pytorch/_my_scripts/.ipynb_checkpoints
 *.pdf
 /optimization-methods-for-artificial-intelligence/2025
+*.rar
+optimization-methods-for-artificial-intelligence/scripts/smoothen.png
+optimization-methods-for-artificial-intelligence/scripts/.ipynb_checkpoints/O2AI_1_Continuous_Optimization-checkpoint.ipynb

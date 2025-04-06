@@ -1,0 +1,1 @@
+streamlit run guess_the_optimum.py

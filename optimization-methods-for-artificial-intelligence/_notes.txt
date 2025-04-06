@@ -2,7 +2,18 @@
 
 Link to eCampus: https://ecampus.paris-saclay.fr/course/view.php?id=112992
 
-## Schedule
+## Schedule (2025)
+Now with time slots of 2.5 hours.
+
+Session 1: Introduction, Introduction (continuous), Long discussion on AI, finished ~20-30 minutes early
+Session 2: Exercises on continuous optimization, Linear programming, finished ~10-20 minutes early
+
+Session 3 (planned): Discrete optimization, Exercises on linear programming/discrete optimization, Multi-objective optimization
+Session 4 (planned): Exercises on multi-objective optimization, Structures, Exercises on complex structures, Advanced optimization topics
+
+Session 5 (planned): Introduction to ML, Exercises on ML, Ensembles of trees
+
+## Schedule (2024)
 Session 1: Introduction, Introduction (continuous), Exercises on continuous optimization
 Session 2: Multi-objective optimization, Exercises on multi-objective optimization
 

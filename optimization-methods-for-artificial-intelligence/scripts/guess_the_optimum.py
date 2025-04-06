@@ -82,7 +82,7 @@ if st.session_state["display_function"] :
 
 ax.set_xlabel("$x$")
 ax.set_ylabel("$y = f(x)$")
-ax.set_title("%d points explored: best value found, x=%.4f" % (len(st.session_state["points_explored"]), 
+ax.set_title("%d points explored: best value found, y=%.4f" % (len(st.session_state["points_explored"]), 
                                                                st.session_state["best_value"]))
 
 # set limits for the plot
